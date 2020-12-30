@@ -1,7 +1,9 @@
+/* all box element styles */
 * {
     box-sizing: border-box;
 }
 
+/* body background styles */
     body {
         background-color: lightblue;
         font-size: 30px;
@@ -10,6 +12,7 @@
         margin: auto;
     }
 
+/* header styles */
     .container {
         width: 100%;
         margin: auto;
@@ -20,7 +23,7 @@
         margin-bottom: 30px;
         text-align: center;
     }
-
+/* paragraph styles */
     p {
         color:cadetblue;
         font-size: 25px;
@@ -40,6 +43,7 @@
         font-size: 25px;
     }
     
+/* image styles */
     #image {
         width: 100%;
         margin-top: 0;
@@ -59,7 +63,15 @@
         background: white;
         color:black;
     }
-    
+
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+   } 
+    /* nav styles */
     nav {
         float: right;
         margin-top: 20px;
